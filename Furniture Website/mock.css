@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    height: 15%;
+}
+.l{
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.c{
+    flex: 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.r{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 1%;
+}
+.b:hover{
+    border-bottom: 5px solid gold;
+}
+
+
+.back{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(images/bannerBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+     background-attachment: fixed; 
+    background-color: gray;
+}
+@media all and (max-width:800px){
+    .back{
+        width: 100vw;
+        height: 90vh;
+        background-image: url(images/bannerBcg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        background-attachment: fixed;
+        background-color: gray;
+    }
+
+}
+
+.w{
+    font-style: italic;
+}
+.word{
+     position: absolute; 
+    top: 40%;
+    left: 5%;
+}
+.wo{
+    background-color: gold;
+    padding: 5px;
+}
+.yz{
+    text-align: center;
+    margin: 1%;
+}
+
+.fa-dollar-sign,.fa-dolly,.fa-phone{
+    background-color: grey;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+}
+.imga{
+    height: 200px;
+    margin: 1%;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+.zy{
+    text-align: center;
+    flex: 1;
+}
+.yu{
+    text-decoration: underline 5px goldenrod;
+}
+.two{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.abc1,.abc2,.abc3,.abc4{
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.abc1{
+    background-image: url(images/bathroom-category.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abc2{
+    background-image: url(images/kitchen-category.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abc3{
+    background-image: url(images/livingroom-category.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abc4{
+    background-image: url(images/patio-category.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media all and (max-width:600px){
+    .one{
+        flex-direction: column;
+    }
+    .abc1,.abc2,.ab3,.ab4{
+        width: 250px;
+        height: 160px;
+    }
+    .zy{
+        line-height: 0.9;
+        font-size: 12px;
+    }
+    .yz{
+        line-height: 0.8;
+        font-size: 12px;
+    }
+}
+
+.bulb{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(images/home-filler.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+.bub{
+    text-align: center;
+     color: white; 
+     background-color: transparent;
+     padding-top: 8%;
+
+}
+.bu{
+    color: gold;
+    text-decoration: underline 5px goldenrod;
+}
+.aa{
+ text-align: center;
+ margin-top: 1%;
+
+}
+.rowing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nm{
+ text-align: center;
+ margin: 1%;
+ width: 400px;
+}
+.mn{
+    background-color: grey;
+}
+
+@media all and (max-width:700px){
+    .nm{
+        width: 300px;
+    }
+}
+.none{
+    background-color: grey;
+}
+
+.subs{
+    background-color: goldenrod;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.dfg{
+    text-align: center;
+    background-color: white;
+}
+
+.high{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.po1{
+    text-align: justify;
+    margin: 1%;
+    display: flex;
+    
+}
+.h4{
+    color: white;
+}
+.p{
+    color: gray;
+}
+.fa-truck,.fa-hand-holding-dollar,.fa-ribbon{
+    color: gold;
+}
+.h2{
+    color: goldenrod;
+    border: 2px solid gold;
+}
+.fa-facebook,.fa-twitter,.fa-youtube,.fa-google-plus,.fa-square-instagram,.fa-phone,.fa-envelope,.fa-location-dot{
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+.bnm{
+    line-height: 1.2;
+    text-align: center;
+ 
+}
+.pa{
+    color: lightyellow;
+}
+.mnb{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+}
+.vcx1,.vcx2,.vcx3{
+    flex: 1;
+    text-align: justify;
+    display: flex;
+     
+}
+.mnbv{
+    background-color: grey;
+    padding: 5px;
+}
+.fa-square-envelope{
+    color: grey;
+    font-size: 30px;
+}
+.btn1{
+    font-weight: 800;
+    width: 200px;
+    border: 5px solid gold;
+    color: gold;
+
+}
+.po8{
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width:700px){
+    .vcx1,.vcx2,.vcx3{
+        font-size: 12px;
+    }
+}
